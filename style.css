@@ -245,6 +245,14 @@ main h1 {
   gap: 0.5rem;
 }
 
+.Links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
 .Exemplos {
   display: flex;
   flex-direction: row;
@@ -325,9 +333,9 @@ main h1 {
   body {
     padding: 0rem 8rem 0rem 1.5rem;
   }
-  #Exemplos {
+  #Alerta {
     transform: scale(0.8);
-    translate: 0 -20rem;
+    translate: 0 -23rem;
 
   }
   .BarraLateral {

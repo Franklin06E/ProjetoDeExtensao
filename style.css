@@ -21,7 +21,7 @@
 }
 
 .BarraLateral_Items {
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,6 +30,11 @@
   width: 100%;
   max-width: 100%;
 
+}
+
+.BarraLateral_Items h3 {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
 }
 
 
@@ -310,6 +315,10 @@ main h1 {
     flex-wrap: wrap;
     gap: 2rem;
   }
+
+  .Recomendacao_Item {
+    font-size: 0.56rem;
+  }
 }
 
 @media (max-width: 470px) {
@@ -322,6 +331,7 @@ main h1 {
   }
   .BarraLateral {
     width: 6.5rem;
+    justify-content: flex-start;
   }
 
   #Menu {

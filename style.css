@@ -371,7 +371,6 @@ main h1 {
   height: auto;
   max-width: 100%;
   display: block;
-  aspect-ratio: 1 / 1;
   min-height: 15rem;
   min-width: 15rem;
 }

@@ -326,7 +326,8 @@ main h1 {
     padding: 0rem 8rem 0rem 1.5rem;
   }
   main {
-    padding: 0.5rem;
+    transform: scale(0.8);
+    translate: 0 -20rem;
 
   }
   .BarraLateral {
